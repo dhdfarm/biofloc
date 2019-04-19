@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <title>Usaha Ternak Lele</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="nav-link" href="../index.html">Home</a>
+  </nav>
+<br>
+<div class="container">
+      <h3>Bioinformatic Analysis</h3>
+      <p>Raw fastq files were demultiplexed, quality-filtered by Trimmomatic and
+      merged by FLASH with the following criteria: (i) reads were truncated at any
+      site receiving an average quality score &lt; 20 over a 50 bp sliding window; (ii)
+      primers were allowed two nucleotide mismatches; (iii) reads containing ambiguous
+      bases were removed; and (iv) sequences with &#8805;10 bp overlap longer were merged.
+      </p>
+      <p>Operational taxonomic units (OTUs) were clustered with 97% similarity cut-off
+      using UPARSE (v.7.1 http://drive5.com/uparse/) and chimeric sequences were
+      identified and removed using UCHIME. </p>
+      <p>Taxonomy was assigned by RDP Classifier algorithm (http://rdp.cme.msu.edu/)
+      against the Silva 16S rRNA database (SSU123) using a confidence threshold of
+      70%. </p>
+      <p>The average read length was approximately 400 bp after quality trimming. A
+      phylogenetic tree was constructed by the neighbor joining method with CLUSTAL X
+      and MEGA 6.0.</p>
+      <a href="index_12.html" class="btn btn-outline-danger btn-lg btn-block">Bioinformatic Analyses of Microbial</a>
+      <p></p>
+</div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
