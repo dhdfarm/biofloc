@@ -1,0 +1,46 @@
+.card{
+  border-radius: 15px;
+  box-shadow: 0 0 2px gray;
+}
+
+.card ul{
+  padding:8px;
+  margin:8px;
+}
+
+.card li{
+  padding-top:8px;
+}
+
+.navbar-brand{
+  padding-top:0px;
+  padding-bottom:0px;
+  height: 20px;
+  font-weight: bold;
+}
+
+.btn{
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container p{
+  text-align: justify;
+  font-size: 16px;
+}
+
+.container h3{
+  font-size:21px;
+  padding-bottom: 16px;
+  padding-top:8px;
+  text-align: left;
+}
+
+.container h4{
+  font-size:18px;
+  padding-bottom: 21px;
+  padding-top:14px;
+  text-align: left;
+}
